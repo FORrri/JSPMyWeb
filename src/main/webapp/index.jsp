@@ -24,6 +24,7 @@
 					<h3><a href="https://www.youtube.com/channel/UCXiyuCYo4dUqM556XpgqAcQ">둘러보기</a></h3>
 					
                 	
+     
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel"><!-- data-ride="carousel" 자동 슬라이드 기능 -->
                        
                         <ol class="carousel-indicators hidden-xs">

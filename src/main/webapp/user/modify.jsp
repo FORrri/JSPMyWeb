@@ -13,11 +13,11 @@
 		
 		<hr/>
 		
-		<form action="####" method="post">
+		<form action="update.user" method="post">
 			<table>
 				<tr>
 					<td>아이디</td>
-					<td><input type="text" name="id"  value="${sessionScope.user_id }" readonly="readonly"></td>
+					<td><input type="text" name="id"  value="${dto.id }" readonly="readonly"></td>
 				</tr>
 				<tr>
 					<td>비밀번호</td>
@@ -33,9 +33,9 @@
 				</tr>
 				<tr>
 					<td>남? 여?</td>
-					<td>
-						<input type="radio" name="gender" value="M" checked="checked">남자
-						<input type="radio" name="gender" value="F">여자
+					<td> <!-- check관련해서 많이 쓰는 문법이니까 알아두기 -->
+						<input type="radio" name="gender" value="M" ${dto.gender == 'M' ? 'checked' : ' ' }>남자
+						<input type="radio" name="gender" value="F" ${dto.gender == 'F' ? 'checked' : ' ' }>여자
 					</td>
 				</tr>
 				

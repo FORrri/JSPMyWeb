@@ -9,7 +9,7 @@
 		<h3>${sessionScope.user_name }회원(${sessionScope.user_id })님의 회원정보를 관리합니다.</h3>
 	
 		<a href="modify.user">회원정보 관리</a>
-		<a href="">회원탈퇴</a>
+		<a href="delete.user">회원탈퇴(화면으로)</a>
 		
 		
 		
