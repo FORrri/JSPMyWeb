@@ -24,7 +24,10 @@
 				<tr>
 					<td>${dto.bno }</td>
 					<td>${dto.writer }</td>
-					<td>${dto.title }</td>
+					<td>
+						<a href="getContent.board?bno=${dto.bno } ">${dto.title }</a>  <!-- ?키=값 -->
+					
+					</td>
 					<td><fmt:formatDate value="${dto.regdate}" pattern="yyyy년 MM월 HH시 mm분 ss초"/></td>
 					
 					<td>${dto.hit }</td>
